@@ -820,4 +820,4 @@ async def swap_multi_faces(
 
 if __name__ == "__main__":
     import uvicorn
-    uvicorn.run("server_v2:app", host="0.0.0.0", port=6006, reload=False)
+    uvicorn.run("server_v2:app", host="0.0.0.0", port=5001, reload=False)
